@@ -2,7 +2,7 @@
 #
 # Author: Michael Hughes
 #
-# Program: uvm_builder_python.py 
+# Program: uvm_builder_python_3_10_13.py 
 #  
 # Version: Demo 
 #   
@@ -10,7 +10,7 @@
 #
 # Description: UVM Testbench Builder
 #
-# Language: Python 3.6.2
+# Language: Python 3.10.13 UPDATED March 23, 2024.
 #
 ######################################################################
 #
@@ -56,7 +56,7 @@
 ######################################################################
 
 from __future__ import print_function
-import httplib2
+# import httplib2
 import pprint
 import os
 import subprocess
@@ -67,10 +67,10 @@ import urllib.request
 import inspect
 import webbrowser
 import shutil
-import wmi
+# import wmi
 # from PIL import ImageTk, Image
-from PIL import Image
-from PIL import ImageTk
+# from PIL import Image
+# from PIL import ImageTk
 from shutil import copyfile
 import platform
 import smtplib
@@ -88,9 +88,9 @@ import time
 import datetime
 import random
 import configparser
-import xlsxwriter
-import numpy
-import pandas as pd
+# import xlsxwriter
+# import numpy
+# import pandas as pd
 
 import tkinter as tk
 from tkinter import *
@@ -108,15 +108,15 @@ from tkinter import filedialog as file_dialog
 
 from configparser import ConfigParser
 
-from openpyxl import workbook
+# from openpyxl import workbook
 
 # integration of gmail send scope oauth2 json
 
-from apiclient import discovery
-import oauth2client
-from oauth2client import client
-from oauth2client import tools
-from oauth2client.file import Storage
+# from apiclient import discovery
+# import oauth2client
+# import from oauth2client import client
+# import from oauth2client import tools
+# import from oauth2client.file import Storage
 
 import base64
 from email.mime.audio import MIMEAudio
@@ -126,7 +126,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import mimetypes
 
-from apiclient import errors
+# from apiclient import errors
 
 #try:
 #    import argparse
